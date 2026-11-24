@@ -8,22 +8,19 @@
 public class RecipeDetails
 {
     private RecipeBook link;
+    
     private String nameOfRecipe;
     private String typeOfRecipe;
     private String ingredients;
     private String tag;
     private int rating;
     private int numberOfServings;
-    
-    
-    
+               
     /**
      * Constructor for objects of class Recipes
      */
     public RecipeDetails()
     {   
-      
-      
       
     }
 
@@ -50,6 +47,6 @@ public class RecipeDetails
 
     public void rateRecipe()
     {
-
+      
     }
 }

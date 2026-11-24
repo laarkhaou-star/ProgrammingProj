@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 /**
  * Write a description of class RecipeBook here.
  *
@@ -13,18 +12,30 @@ public class RecipeBook
     private int yearOfPublication;
     private String nameOfBook;
     private String nameOfAuthor;
-    private int numberOfPages;
-    
+   
+
     /**
      * Constructor for objects of class RecipeBook
      */
     public RecipeBook()
     {
-        
+        recipes.add("soup");
+        recipes.add("cake");
+        recipes.add("rice");
+        recipes.add("pasta");
+
+        yearOfPublication = 2026;
+        nameOfBook = "Cooking";
+        nameOfAuthor = "random name";
+       
+
     }
+
     public void printDetails(){
-        
-        System.out.println();
+
+        System.out.println(nameOfBook);
+        System.out.println(nameOfAuthor);
+        System.out.println(yearOfPublication );
     }
 
     /**
@@ -36,11 +47,19 @@ public class RecipeBook
     public void rating()
     {
         
+
     }
-    public void topRated(){
-        
+
+    public void topRated()
+    {
+
     }
-    public void searchRecipes(String name){
+
+    public void searchRecipes(String name)
+    {
         
+        
+        
+
     }
 }
