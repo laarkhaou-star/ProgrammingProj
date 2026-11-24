@@ -7,7 +7,7 @@
  */
 public class RecipeDetails
 {
-    // instance variables - replace the example below with your own
+    private RecipeBook link;
     private String nameOfRecipe;
     private String typeOfRecipe;
     private String ingredients;
@@ -15,20 +15,28 @@ public class RecipeDetails
     private int rating;
     private int numberOfServings;
     
+    
+    
     /**
      * Constructor for objects of class Recipes
      */
     public RecipeDetails()
+    {   
+      
+      
+      
+    }
+
+    public void listRecipes()
     {
-        // initialise instance variables
-       
+
     }
-    public void listRecipes(){
-        
+
+    public void listByType()
+    {
+         
     }
-    public void listByType(){
-        
-    }
+
     /**
      * An example of a method - replace this comment with your own
      *
@@ -37,10 +45,11 @@ public class RecipeDetails
      */
     public void addRecipe()
     {
-        // put your code here
-        
+       
     }
-    public void rateRecipe(){
-        
+
+    public void rateRecipe()
+    {
+
     }
 }
