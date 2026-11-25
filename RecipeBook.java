@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Write a description of class RecipeBook here.
  *
- * @author Khaoula Arar, Anothan Sellakandu, Alaa El Mfadli
+ * @author (your name)
  * @version (a version number or a date)
  */
 public class RecipeBook 
@@ -50,6 +50,21 @@ public class RecipeBook
 
     }
 
+        public void listRecipes()
+    {
+
+    }
+
+    public void listByType()
+    {
+         
+    }
+
+    public void addRecipe()
+    {
+       
+    }
+    
     public void topRated()
     {
 
