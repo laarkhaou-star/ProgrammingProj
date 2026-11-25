@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class RecipeBook 
 {
-    public ArrayList<String>recipes = new ArrayList<>();
+    public ArrayList<Recipe> recipes = new ArrayList<>();
     private int yearOfPublication;
     private String nameOfBook;
     private String nameOfAuthor;
@@ -19,10 +19,10 @@ public class RecipeBook
      */
     public RecipeBook()
     {
-        recipes.add("soup");
-        recipes.add("cake");
-        recipes.add("rice");
-        recipes.add("pasta");
+        recipes.add(new Recipe());
+        recipes.add(new Recipe());
+        recipes.add(new Recipe());
+        recipes.add(new Recipe());
 
         yearOfPublication = 2026;
         nameOfBook = "Cooking";

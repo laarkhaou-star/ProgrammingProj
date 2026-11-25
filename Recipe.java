@@ -7,8 +7,6 @@
  */
 public class Recipe
 {
-    private RecipeBook link;
-    
     private String nameOfRecipe;
     private String typeOfRecipe;
     private String ingredients;
