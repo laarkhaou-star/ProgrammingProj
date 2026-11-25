@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class RecipeDetails
+public class Recipe
 {
     private RecipeBook link;
     
@@ -15,11 +15,12 @@ public class RecipeDetails
     private String tag;
     private int rating;
     private int numberOfServings;
-               
+    
+    
     /**
      * Constructor for objects of class Recipes
      */
-    public RecipeDetails()
+    public Recipe()
     {   
       
     }
