@@ -50,12 +50,12 @@ public class RecipeBook
 
     }
 
-        public void listRecipes()
+    public void listRecipes()
     {
 
     }
 
-    public void listByType()
+    public void listByType() //come back not sure if needed or how it works
     {
          
     }
@@ -65,7 +65,7 @@ public class RecipeBook
        
     }
     
-    public void topRated()
+    public void topRated() // not sure how it works yet
     {
 
     }
