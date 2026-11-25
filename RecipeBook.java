@@ -31,7 +31,7 @@ public class RecipeBook
 
     }
 
-    public void printDetails(){
+    public void printBookDetails(){
 
         System.out.println(nameOfBook);
         System.out.println(nameOfAuthor);

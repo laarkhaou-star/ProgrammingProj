@@ -9,7 +9,7 @@ public class Recipe
 {
     private String nameOfRecipe;
     private String typeOfRecipe;
-    private String ingredients;
+    // private String ingredients;   --> ingredients wont be a field, it will be its own class, smt abt hashmap or idk
     private String tag;
     private int rating;
     private int numberOfServings;
@@ -26,5 +26,10 @@ public class Recipe
     public void rateRecipe()
     {
       
+    }
+    
+    public void printRecipeDetails()
+    {
+        
     }
 }
