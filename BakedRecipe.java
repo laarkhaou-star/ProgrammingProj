@@ -7,8 +7,8 @@
  */
 public class BakedRecipe extends Recipe
 {
-    double bakeTemperature;
-    double bakeTime;
+    private double bakeTemperature;
+    private double bakeTime;
     public BakedRecipe()
     {
 

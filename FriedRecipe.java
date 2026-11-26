@@ -7,10 +7,10 @@
  */
 public class FriedRecipe extends Recipe
 {
-    boolean isDeepFried = false;
-    double oilAmount;
-    double fryingTime;
-    double fryingTemperature;
+    private boolean isDeepFried = false;
+    private double oilAmount;
+    private double fryingTime;
+    private double fryingTemperature;
     public FriedRecipe()
     {
         
