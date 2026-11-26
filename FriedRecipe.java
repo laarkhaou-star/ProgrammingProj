@@ -5,11 +5,10 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class VegeterianRecipe extends Recipe
+public class FriedRecipe extends Recipe
 {
     
-    boolean haveMeat = false;
-    public VegeterianRecipe()
+    public FriedRecipe()
     {
         
     }
