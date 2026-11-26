@@ -7,15 +7,15 @@
  */
 public class BakedRecipe extends Recipe
 {
-
-    int bakeTime;
+    double bakeTemperature;
+    double bakeTime;
     public BakedRecipe()
     {
-        
+
     }
 
     public void sampleMethod()
     {
-        
+
     }
 }

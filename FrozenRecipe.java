@@ -7,8 +7,8 @@
  */
 public class FrozenRecipe extends Recipe
 {
-    
-    int freezingTime;
+    double freezingTemperature;
+    double freezingTime;
     public FrozenRecipe()
     {
        
