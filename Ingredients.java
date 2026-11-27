@@ -8,11 +8,19 @@ import java.util.HashMap;
  */
 public class Ingredients
 {
-    public Ingredients()
-    {
-        HashMap<String, Double> ingredient = new HashMap<>();
-    }
+    private String nameOfIngredient;
+    private double quantity;
+    private Unit unit;
 
+    public Ingredients() // we dont know how to use hashmap so i am proposing this code after the hashmap code. i still saved the hashmap code
+    {
+        //HashMap<String, Double> ingredient = new HashMap<>();
+        public Ingredients(String name, double quantity, Unit unit) {
+        this.nameOfIngredient = name;
+        this.quantity = quantity;
+        this.unit = unit;
+    }
+    
     public int sampleMethod(int y)
     {
        y=0;
