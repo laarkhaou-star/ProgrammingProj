@@ -60,7 +60,7 @@ public class RecipeBook
          
     }
 
-    public void addRecipe()
+    public void addRecipe(String name) // not sure abt this one
     {
        
     }
